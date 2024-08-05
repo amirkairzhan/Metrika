@@ -1,0 +1,35 @@
+/*Панель навигации*/
+.navigation {
+    margin: 0 auto;
+    width: 1153.35px;
+    height: 25.18px;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 32.82px;
+    margin-right: 558.46px;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 57px;
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav:last-child {
+    margin-right: 0;
+}
+
+.nav:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

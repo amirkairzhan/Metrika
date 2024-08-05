@@ -1,0 +1,22 @@
+/*Проект  Двухкомнтаной квартиры*/
+.apartment {
+    position: relative;
+    height: 717px;
+    background-image: url(../resources/apartment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.project__apartment {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    height: 82px;
+
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 41px;
+    text-align: left;
+}
