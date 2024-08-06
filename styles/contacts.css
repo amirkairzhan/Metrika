@@ -1,0 +1,74 @@
+/*КОНТАКТЫ*/
+.contacts-section {
+    width: 1400px;
+}
+
+.contacts {
+    position: relative;
+    margin-top: 186px;
+    margin-bottom: 150px;
+    margin-left: 124px;
+    width: 473px;
+    height: 217px;
+}
+
+.contacts:before {
+    position: absolute;
+    top: -36px;
+    left: -4px;
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../resources/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.contacts__head {
+    margin-bottom: 32px;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contacts__number {
+    display: block;
+    margin-bottom: 30px;
+    width: 472px;
+    height: 60px;
+    line-height: 60px;
+
+    color: rgb(18, 18, 18);
+    font-size: 60px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.contacts__number:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.contacts__mail {
+    display: block;
+    width: 412px;
+    height: 60px;
+    line-height: 60px;
+
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    font-size: 60px;
+    text-align: left;
+}
+
+.contacts__mail:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}

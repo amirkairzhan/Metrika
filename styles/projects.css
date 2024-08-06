@@ -1,0 +1,165 @@
+/*ПРОЕКТЫ*/
+.projects-section {
+    width: 1150px;
+}
+
+.projects-head {
+    display: block;
+    width: 79px;
+    height: 25px;
+    
+    color: rgb(18, 18, 18);
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+    
+.projects {
+    margin-top: 30px;
+}
+
+.project {
+    margin-bottom: 90px;
+    width: 1150px;
+}
+
+.project__img {
+    width: 1150px;
+    height: 450px;
+}
+
+.project__title {
+    margin-top: 15px;
+    width: 550px;
+    height: 41px;
+
+    color: rgb(18, 18, 18);
+    font-size: 30px;
+    line-height: 41px;
+    text-align: left;
+}
+
+.project__details {
+    margin-top: 15px;
+    display: block;
+    width: 137px;
+    height: 27px;
+
+    text-decoration: none;
+    color: rgb(173, 24, 24);
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.all-projects {
+    display: block;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: rgb(173, 24, 24);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.all-projects:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(173, 24, 24);
+}
+
+
+/*Планшет*/
+@media (max-width: 1199px) {
+
+    .projects-section {
+        margin-top: 120px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 17px;
+    }
+
+    .project {
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .project__img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .project__title {
+        margin-top: 15px;
+        height: 34px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .project__details {
+        margin-top: 10px;
+        width: 127px;
+    }
+
+    .all-projects {
+        margin-top: 100px;
+    }
+}
+
+
+/*Telefon*/
+@media (max-width: 767px) {
+    
+    .projects-section {
+        margin-top: 80px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 17px;
+    }
+
+    .projects-head {
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .project {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .project__img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .project__title {
+        margin-top: 20px;
+        width: 100%;
+        height: 25px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project__details {
+        margin-top: 10px;
+        width: 101px;
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .all-projects {
+        margin-top: 60px;
+        height: 100px;
+        font-size: 22px;
+        line-height: 100px;
+        border-radius: 4px;
+    }
+}
